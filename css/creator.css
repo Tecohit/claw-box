@@ -62,7 +62,7 @@ nav>.links {
     position: fixed;
     width: 85%;
     left: 7.5%;
-    top: 8.2%;
+    top: 10%;
     height: auto;
     display: none;
     flex-direction: column;
@@ -262,7 +262,7 @@ nav>.links {
         display: block;
         background-color: transparent;
         position: absolute;
-        bottom: 30px;
+        bottom: 5px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -282,20 +282,21 @@ nav>.links {
     }
     .creator-content{
         position: absolute;
-        top:20%;
+        top:15%;
     }
     .creator-content h1{
         font-size: 45px;
+        margin-bottom: 30px;
         line-height: 50px;
     }
     .creator-content .info{
         font-size: 20px;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     .creator-content .highlight{
         font-size: 17px;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
         margin-left: -13px;
         background-color: transparent;
         line-height: 35px;
@@ -303,14 +304,14 @@ nav>.links {
         padding:10px;
     }
     .signup-btn button{
-        font-size: 22px;
+        font-size: 20px;
         border-radius: 13px;
         outline: 1px solid orangered;
         padding: 15px 25px;
     }
     .footer .social-media{
         position: absolute;
-        top: -300%;
-        left: -25px;
+        top: -120%;
+        left: -15px;
     }
 }
